@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Montserrat;
+}
+:root{
+    --header-color:rgb(231, 231, 231);
+    --body-color:white;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color:var(--header-color);
+    display: flex;
+    gap: 43rem;
+    
+}
+#header-svg{
+    height: 3rem;
+    margin: .5rem 2.7rem 0;
+
+}
+#library-text{
+    margin: 0 1.8rem 1rem;
+}
+.left-header{
+    margin-left: 4rem;
+}
+.right-header{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+.body-content{
+    height: 75vh;
+}
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+.add{
+    background-color: lightgreen;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    text-align: center;
+}
+.remove{
+    background-color: lightcoral;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    text-align: center;
+}
+#book-svg , #delete-svg{
+    height: 2rem;
+    margin-top: 8px;
+
+    
+}
+#book-svg{
+    fill:rgb(0, 82, 0);
+}
+#delete-svg{
+    fill: rgb(167, 0, 0);
+}
+.add-remove{
+    position: absolute;
+    bottom: 7rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+button{
+    border: none;
+}
