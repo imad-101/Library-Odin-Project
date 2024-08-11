@@ -8,6 +8,8 @@ Tools :
 
 1 : Git 2 : GitHub 3 : Sublime merge
 
-This was the last javscript project for the odin project ( Javascript Path). Make sure to check out the live preview , you can also clone the project into you local machine using git.
+This is a javscript project for the odin project ( Javascript Path). Make sure to check out the live preview , you can also clone the project into you local machine using git.
+
+It is a simple library where you can store , delete and manage books .
 
 If you like this project, give it a ⭐ and share it with friends!
